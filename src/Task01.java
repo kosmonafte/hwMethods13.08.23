@@ -1,6 +1,5 @@
 public class Task01 {
     public static void main(String[] args) {
-
         int arr[][] = Matrix.create(3,2,8);
         int arr2[][] = Matrix.create(2,3,8);
         System.out.println(Matrix.show(arr));
