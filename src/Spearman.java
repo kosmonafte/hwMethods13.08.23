@@ -2,15 +2,12 @@ import javax.management.remote.SubjectDelegationPermission;
 
 public class Spearman extends Unit{
     Spearman(){
-        this.hp = 50;
-        this.damage = 20;
+        super();
     }
     Spearman(int hp) {
-        this.hp = hp;
-        this.damage = 15;
+        super(hp);
     }
     Spearman(int hp, int damage) {
-        this.hp = hp;
-        this.damage = damage;
+        super(hp, damage);
     }
 }
